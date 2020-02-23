@@ -1,0 +1,7 @@
+set terminal svg
+set title "Time Complexity for Merge Sort"
+set autoscale
+set xlabel "Size of Input"
+set ylabel "Sorting Time (microseconds)"
+set output "merge_sort_plot.svg"
+plot "data.csv" t 'Merge Sort' with lines
